@@ -5,14 +5,30 @@
 background-color: #009aa6;
 
 
+
 }
 .menus{
    margin-left: 50%;
-   padding: 15px;
+  
+ 
 }
 .login{
     margin-right: 5%;
    
+}
+
+.alink{
+  text-decoration: none;
+  padding: 30px;
+  color: #ffffff;
+}
+.kook{
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 30px;
+  
+  border-radius: 100%;
+  
 }
 /*navbar css end*/
 
@@ -20,7 +36,7 @@ background-color: #009aa6;
 /* footer css start*/
 
 .footer {
-    background-color: #333;
+    background-color: #003366;
     color: white;
     padding: 20px 0;
     text-align: center;

@@ -3,7 +3,7 @@ import { NavLink } from 'react-bootstrap'
 
 const Room = () => {
   return (
-    <div>
+    <div style={{backgroundColor:'#ffffff'}}>
     
         <div className="container-xxl py-5">
   <div className="container">
