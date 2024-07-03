@@ -115,15 +115,15 @@ const Dashboard = ({guests, onAction}) => {
 
       <div style={cardStyle}>
         <div style={card}>
-          <h2>Total Revenue</h2>
+          <h2>Cheak in Room</h2>
           <p>$50,000</p>
         </div>
         <div style={card}>
-          <h2>Total Bookings</h2>
+          <h2>Cheak out Room</h2>
           <p>1,200</p>
         </div>
         <div style={card}>
-          <h2>Occupancy Rate</h2>
+          <h2>Total Room</h2>
           <p>75%</p>
         </div>
 
