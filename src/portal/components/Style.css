@@ -22,6 +22,9 @@ background-color: #009aa6;
   padding: 30px;
   color: #ffffff;
 }
+  .alink:active{
+  color: rgb(13, 12, 12);
+}
 .kook{
   text-decoration: none;
   color: #ffffff;

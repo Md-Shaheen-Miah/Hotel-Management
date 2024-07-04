@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import './Style.css'
-import {  NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 function BasicExample() {
   return (
@@ -19,9 +19,9 @@ function BasicExample() {
           <Nav className="menus">
             <NavLink className="alink" to="/Room">ROOMS</NavLink>
             <NavLink className="alink" to="/Service">SERVICES</NavLink>
+            <NavLink className="alink" to="/Booking">Booking</NavLink>
             <NavLink className="alink" to="#link">Link</NavLink>
-            <NavLink className="alink" to="#link">Link</NavLink>
-            <NavLink className="alink" to="#link">Link</NavLink>
+            <NavLink className="alink" to="/Contact">Contact</NavLink>
             <NavLink className="kook" to="/">link</NavLink>
             
           </Nav>

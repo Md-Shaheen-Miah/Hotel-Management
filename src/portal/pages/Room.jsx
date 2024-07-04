@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {  NavLink } from 'react-router-dom';
 import Navbar from '../../portal/components/Navbar'
 import Footer from '../../portal/components/Footer'
 
@@ -41,7 +41,7 @@ const Room = () => {
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
               <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-              <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Room = () => {
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
               <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-              <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const Room = () => {
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
               <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-              <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Room = () => {
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
               <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-              <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ const Room = () => {
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
               <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-              <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
         </div>
@@ -191,7 +191,7 @@ const Room = () => {
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
               <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-              <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
         </div>

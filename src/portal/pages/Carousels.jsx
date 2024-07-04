@@ -19,7 +19,7 @@ function Carousels() {
             <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
             <h1 className="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
             <NavLink className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" to="/Room">Our Rooms</NavLink>
-            <a href className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+            <NavLink className="btn btn-light py-md-3 px-md-5 animated slideInRight" to="/Booking">Book A Room</NavLink>
           </div>
         </div>
       </div>
@@ -29,8 +29,8 @@ function Carousels() {
           <div className="p-3" style={{maxWidth: 700}}>
             <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
             <h1 className="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-            <a href className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-            <a href className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+            <NavLink className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" to="/Room">Our Rooms</NavLink>
+            <NavLink className="btn btn-light py-md-3 px-md-5 animated slideInRight" to="/Booking">Book A Room</NavLink>
           </div>
         </div>
       </div>
