@@ -9,7 +9,7 @@ export const Root = () => {
     <div>
     <Navbar/>
    <Carousels/>
-   <Room/>
+  
    <Service/>
 
    <Footer/>

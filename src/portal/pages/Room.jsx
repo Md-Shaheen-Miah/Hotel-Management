@@ -1,10 +1,14 @@
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
+
+import Navbar from '../../portal/components/Navbar'
+import Footer from '../../portal/components/Footer'
+
 
 const Room = () => {
   return (
-    <div style={{backgroundColor:'#ffffff'}}>
     
+    <div style={{backgroundColor:'#ffffff'}}>
+    <Navbar/>
         <div className="container-xxl py-5">
   <div className="container">
     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -195,7 +199,7 @@ const Room = () => {
     </div>
   </div>
 </div>
-
+<Footer/>
     </div>
   )
 }

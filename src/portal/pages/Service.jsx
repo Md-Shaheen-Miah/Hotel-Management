@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div>
+    <div style={{minHeight:'200px'}}>
       <div className="container-xxl py-5">
   <div className="container">
     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">

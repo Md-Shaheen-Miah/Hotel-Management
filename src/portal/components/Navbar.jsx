@@ -12,17 +12,17 @@ function BasicExample() {
     <Navbar  className="contain">
       <Container>
               
-        <Navbar.Brand style={{color:'#ffffff'}}  href="#home">PADMA HEIGHTS <br /><p style={{fontSize:'1rem',color:'#ff7518'}}>HOTEL and RESTAURANT</p></Navbar.Brand>
+        <NavLink style={{color:'#ffffff',textDecoration:'none'}}  to="/">PADMA HEIGHTS <br /><p style={{fontSize:'1rem',color:'#ff7518'}}>HOTEL and RESTAURANT</p></NavLink>
              
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="menus">
             <NavLink className="alink" to="/Room">ROOMS</NavLink>
-            <NavLink className="alink" href="#link">SERVICES</NavLink>
-            <NavLink className="alink" href="#link">Link</NavLink>
-            <NavLink className="alink" href="#link">Link</NavLink>
-            <NavLink className="alink" href="#link">Link</NavLink>
-            <NavLink className="kook" to="#link">18+</NavLink>
+            <NavLink className="alink" to="/Service">SERVICES</NavLink>
+            <NavLink className="alink" to="#link">Link</NavLink>
+            <NavLink className="alink" to="#link">Link</NavLink>
+            <NavLink className="alink" to="#link">Link</NavLink>
+            <NavLink className="kook" to="/">link</NavLink>
             
           </Nav>
         </Navbar.Collapse>

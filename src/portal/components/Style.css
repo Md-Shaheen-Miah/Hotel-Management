@@ -8,7 +8,7 @@ background-color: #009aa6;
 
 }
 .menus{
-   margin-left: 50%;
+   margin-left: 40%;
   
  
 }
@@ -36,6 +36,7 @@ background-color: #009aa6;
 /* footer css start*/
 
 .footer {
+  margin-top: 8px;
     background-color: #003366;
     color: white;
     padding: 20px 0;
