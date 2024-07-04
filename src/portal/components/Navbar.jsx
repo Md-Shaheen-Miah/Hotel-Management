@@ -12,7 +12,7 @@ function BasicExample() {
     <Navbar  className="contain">
       <Container>
               
-        <NavLink style={{color:'#ffffff',textDecoration:'none'}}  to="/">PADMA HEIGHTS <br /><p style={{fontSize:'1rem',color:'#ff7518'}}>HOTEL and RESTAURANT</p></NavLink>
+        <NavLink style={{color:'#ffffff',textDecoration:'none'}}  to="/">PADMA HEIGHTS <br /><p style={{fontSize:'1rem',color:'#ff7518'}}>HOTEL and RESORT</p></NavLink>
              
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
