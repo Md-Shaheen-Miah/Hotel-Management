@@ -20,7 +20,7 @@ function BasicExample() {
             <NavLink className="alink" to="/Room">ROOMS</NavLink>
             <NavLink className="alink" to="/Service">SERVICES</NavLink>
             <NavLink className="alink" to="/Booking">Booking</NavLink>
-            <NavLink className="alink" to="#link">Link</NavLink>
+            <NavLink className="alink" to="/About">About</NavLink>
             <NavLink className="alink" to="/Contact">Contact</NavLink>
             <NavLink className="kook" to="/">link</NavLink>
             
@@ -28,7 +28,7 @@ function BasicExample() {
         </Navbar.Collapse>
       </Container>
       <div className='login'>
-      <NavLink style={{color:'#ffffff',textDecoration:'none'}}>Admin</NavLink>
+      <NavLink style={{color:'#ffffff',textDecoration:'none'}} to="/Login">Admin</NavLink>
       </div>
    
     </Navbar>

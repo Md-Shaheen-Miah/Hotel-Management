@@ -40,7 +40,7 @@ const Room = () => {
             </div>
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
-              <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
+              <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details"  >View Detail</NavLink>
               <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Room = () => {
             </div>
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
-              <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
+            <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details"  >View Detail</NavLink>
               <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Room = () => {
             </div>
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
-              <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
+            <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details"  >View Detail</NavLink>
               <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Room = () => {
             </div>
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
-              <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
+            <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details"  >View Detail</NavLink>
               <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
@@ -160,7 +160,7 @@ const Room = () => {
             </div>
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
-              <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
+            <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details"  >View Detail</NavLink>
               <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>
@@ -190,7 +190,7 @@ const Room = () => {
             </div>
             <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
             <div className="d-flex justify-content-between">
-              <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
+            <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details"  >View Detail</NavLink>
               <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
             </div>
           </div>

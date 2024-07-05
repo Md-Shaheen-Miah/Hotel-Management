@@ -1,4 +1,5 @@
 import React from 'react'
+import {  NavLink } from 'react-router-dom';
 import './Style.css';
 
  const Footar = () => {
@@ -21,10 +22,10 @@ import './Style.css';
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/Home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/About">About</NavLink></li>
+            <li><NavLink to="/Service">Service</NavLink></li>
+            <li><NavLink to="/Contact">Contact</NavLink></li>
           </ul>
         </div>
         <div className="footer-section">

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom';
 const Carousels = () => {
   return (
     
@@ -13,8 +13,8 @@ const Carousels = () => {
             <div className="p-3" style={{maxWidth: 700}}>
               <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
               <h1 className="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-              <a href className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-              <a href className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+              <NavLink className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" to="/Room">Our Rooms</NavLink>
+              <NavLink className="btn btn-light py-md-3 px-md-5 animated slideInRight" to="/Booking">Book A Room</NavLink>
             </div>
           </div>
         </div>
@@ -24,8 +24,8 @@ const Carousels = () => {
             <div className="p-3" style={{maxWidth: 700}}>
               <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
               <h1 className="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-              <a href className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-              <a href className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+              <NavLink className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" to="/Room">Our Rooms</NavLink>
+              <NavLink className="btn btn-light py-md-3 px-md-5 animated slideInRight" to="/Booking">Book A Room</NavLink>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Carousels = () => {
     <div className="container">
       <div className="row g-5 align-items-center">
         <div className="col-lg-6">
-          <h6 className="section-title text-start text-primary text-uppercase">About Us</h6>
+          <NavLink className="section-title text-start text-primary text-uppercase" to="/About">About Us</NavLink>
           <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Hotelier</span></h1>
           <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
           <div className="row g-3 pb-4">
@@ -93,7 +93,7 @@ const Carousels = () => {
               <div className="border rounded p-1">
                 <div className="border rounded text-center p-4">
                   <i className="fa fa-hotel fa-2x text-primary mb-2" />
-                  <h2 className="mb-1" data-toggle="counter-up">1234</h2>
+                  <h2 className="mb-1" data-toggle="counter-up">225</h2>
                   <p className="mb-0">Rooms</p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Carousels = () => {
               <div className="border rounded p-1">
                 <div className="border rounded text-center p-4">
                   <i className="fa fa-users-cog fa-2x text-primary mb-2" />
-                  <h2 className="mb-1" data-toggle="counter-up">1234</h2>
+                  <h2 className="mb-1" data-toggle="counter-up">58</h2>
                   <p className="mb-0">Staffs</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Carousels = () => {
               <div className="border rounded p-1">
                 <div className="border rounded text-center p-4">
                   <i className="fa fa-users fa-2x text-primary mb-2" />
-                  <h2 className="mb-1" data-toggle="counter-up">1234</h2>
+                  <h2 className="mb-1" data-toggle="counter-up">280</h2>
                   <p className="mb-0">Clients</p>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Carousels = () => {
   <div className="container-xxl py-5">
     <div className="container">
       <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 className="section-title text-center text-primary text-uppercase">Our Rooms</h6>
+        <NavLink className="section-title text-center text-primary text-uppercase" to="/Room">Our Rooms</NavLink>
         <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Rooms</span></h1>
       </div>
       <div className="row g-4">
@@ -169,8 +169,8 @@ const Carousels = () => {
               </div>
               <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
               <div className="d-flex justify-content-between">
-                <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-                <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+                <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details">View Detail</NavLink>
+                <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
               </div>
             </div>
           </div>
@@ -199,8 +199,8 @@ const Carousels = () => {
               </div>
               <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
               <div className="d-flex justify-content-between">
-                <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-                <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details">View Detail</NavLink>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
               </div>
             </div>
           </div>
@@ -229,8 +229,8 @@ const Carousels = () => {
               </div>
               <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
               <div className="d-flex justify-content-between">
-                <a className="btn btn-sm btn-primary rounded py-2 px-4" href>View Detail</a>
-                <a className="btn btn-sm btn-dark rounded py-2 px-4" href>Book Now</a>
+              <NavLink className="btn btn-sm btn-primary rounded py-2 px-4" to="/Details">View Detail</NavLink>
+              <NavLink className="btn btn-sm btn-dark rounded py-2 px-4" to="/Booking">Book Now</NavLink>
               </div>
             </div>
           </div>
@@ -245,8 +245,8 @@ const Carousels = () => {
           <h6 className="section-title text-start text-white text-uppercase mb-3">Luxury Living</h6>
           <h1 className="text-white mb-4">Discover A Brand Luxurious Hotel</h1>
           <p className="text-white mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-          <a href className="btn btn-primary py-md-3 px-md-5 me-3">Our Rooms</a>
-          <a href className="btn btn-light py-md-3 px-md-5">Book A Room</a>
+          <NavLink href className="btn btn-primary py-md-3 px-md-5 me-3" to="/Room">Our Rooms</NavLink>
+          <NavLink href className="btn btn-light py-md-3 px-md-5" to="/Booking">Book A Room</NavLink>
         </div>
       </div>
       <div className="col-md-6">
@@ -277,7 +277,7 @@ const Carousels = () => {
   <div className="container-xxl py-5">
     <div className="container">
       <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 className="section-title text-center text-primary text-uppercase">Our Services</h6>
+        <NavLink className="section-title text-center text-primary text-uppercase" to="/Service">Our Services</NavLink>
         <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Services</span></h1>
       </div>
       <div className="row g-4">
@@ -392,8 +392,8 @@ const Carousels = () => {
   <div className="container-xxl py-5">
     <div className="container">
       <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 className="section-title text-center text-primary text-uppercase">Our Team</h6>
-        <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Staffs</span></h1>
+        <NavLink className="section-title text-center text-primary text-uppercase">Our Team</NavLink>
+        <NavLink className="mb-5">Explore Our <span className="text-primary text-uppercase">Staffs</span></NavLink>
       </div>
       <div className="row g-4">
         <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

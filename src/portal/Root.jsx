@@ -9,6 +9,7 @@ export const Root = () => {
     <div>
     <Navbar/>
    <Carousels/>
+   
   
    
 
