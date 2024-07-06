@@ -28,7 +28,11 @@ function BasicExample() {
         </Navbar.Collapse>
       </Container>
       <div className='login'>
-      <NavLink style={{color:'#ffffff',textDecoration:'none'}} to="/Login">Admin</NavLink>
+      
+      <NavLink style={{color:'#ffffff',textDecoration:'none'}} to="/Login">
+      <img style={{width:'20px',borderRadius:'100%'}} src="src/assets/images/shaheen.jpg" alt="" />
+      Admin</NavLink>
+      
       </div>
    
     </Navbar>

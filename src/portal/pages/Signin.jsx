@@ -32,6 +32,7 @@ function App() {
           <MDBCol md='8'>
 
             <MDBCardBody>
+              <div><h1 style={{textAlign:'center'}}>Log in</h1></div>
 
               <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email'/>
               <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password'/>

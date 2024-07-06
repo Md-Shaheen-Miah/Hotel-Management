@@ -50,7 +50,7 @@ const Profile = () => {
     <div style={styles.container}>
       <div style={styles.profileCard}>
         <img
-          src="src/components/images/shaheen.jpg"
+          src="src/assets/images/shaheen.jpg"
           alt=""
           style={styles.profileImage}
         />
@@ -59,12 +59,11 @@ const Profile = () => {
         <p style={styles.profileEmail}>Phone:+8801641160101</p>
         <p style={styles.profileEmail}>Address:Tongi,Gazipur,Dhaka</p>
         <p style={styles.profileBio}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          lacinia odio vitae vestibulum vestibulum.
+        Project administration is the backbone of successful project management, ensuring that all aspects of a project are organized, monitored, and executed efficiently. As a project admin, your role is crucial in aligning team efforts, managing resources, and maintaining communication. This article will delve into key strategies and best practices to enhance your effectiveness as a project admin.
           <div style={{width:'100%'}}>
             <h2>Are You Admin?</h2>
-            <NavLink style={{width:'50%',float:'left'}} to="/Signin">YES</NavLink>
-            <NavLink to="/">NO</NavLink>
+            <NavLink style={{width:'50%',float:'left',textDecoration:'none'}} to="/Signin">YES</NavLink>
+            <NavLink  style={{width:'50%',float:'left',textDecoration:'none'}}  to="/">NO</NavLink>
           </div>
         </p>
       </div>
