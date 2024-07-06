@@ -10,6 +10,7 @@ import Booking from './portal/pages/Booking'
 import Details from './portal/pages/Details'
 import About from './portal/pages/About'
 import Login from './portal/pages/Login'
+import Signin from './portal/pages/Signin'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Root } from './portal/Root';
 import {Routes,Route,useLocation } from 'react-router-dom';
@@ -36,6 +37,7 @@ const App = () => {
         <Route path='/Details' element={<Details/>} />
         <Route path='/About' element={<About/>} />
         <Route path='/Login' element={<Login/>} />
+        <Route path='/Signin' element={<Signin/>} />
         <Route path="/Dashboard" element={<Dashboard/>} />
     
 

@@ -1,130 +1,77 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Navbar from '../../portal/components/Navbar'
+import Footer from '../../portal/components/Footer'
+import {  NavLink } from 'react-router-dom';
 
-const ModalLoginForm = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-
-  const openModal = () => setIsOpen(true);
-  const closeModal = () => setIsOpen(false);
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-    // Add login logic here
-    console.log('Username:', username);
-    console.log('Password:', password);
-    closeModal();
+const Profile = () => {
+  const styles = {
+    container: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      backgroundColor: '#f0f2f5',
+    },
+    profileCard: {
+      backgroundColor: '#fff',
+      padding: '2rem',
+      borderRadius: '8px',
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+      textAlign: 'center',
+      width: '100%',
+      maxWidth: '1000px',
+    },
+    profileImage: {
+      width: '150px',
+      height: '150px',
+      borderRadius: '50%',
+      objectFit: 'cover',
+      marginBottom: '1rem',
+    },
+    profileName: {
+      fontSize: '24px',
+      fontWeight: 'bold',
+      marginBottom: '0.5rem',
+    },
+    profileEmail: {
+      fontSize: '16px',
+      color: '#777',
+      marginBottom: '1rem',
+    },
+    profileBio: {
+      fontSize: '16px',
+      color: '#555',
+    },
   };
 
   return (
+  <div>
+    <Navbar/>
     <div style={styles.container}>
-      <button onClick={openModal} style={styles.openButton}>Login</button>
-
-      {isOpen && (
-        <div style={styles.modal}>
-          <div style={styles.modalContent}>
-            <span style={styles.closeButton} onClick={closeModal}>&times;</span>
-            <h2>Login</h2>
-            <form onSubmit={handleLogin} style={styles.form}>
-              <div style={styles.formGroup}>
-                <label style={styles.label} htmlFor="username">Username:</label>
-                <input
-                  type="text"
-                  id="username"
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                  style={styles.input}
-                  required
-                />
-              </div>
-              <div style={styles.formGroup}>
-                <label style={styles.label} htmlFor="password">Password:</label>
-                <input
-                  type="password"
-                  id="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  style={styles.input}
-                  required
-                />
-              </div>
-              <button type="submit" style={styles.submitButton}>Login</button>
-            </form>
+      <div style={styles.profileCard}>
+        <img
+          src="src/components/images/shaheen.jpg"
+          alt=""
+          style={styles.profileImage}
+        />
+        <h2 style={styles.profileName}>Md. Shaheen Miah</h2>
+        <p style={styles.profileEmail}>E-mail:mdshaheen60101@gmail.com</p>
+        <p style={styles.profileEmail}>Phone:+8801641160101</p>
+        <p style={styles.profileEmail}>Address:Tongi,Gazipur,Dhaka</p>
+        <p style={styles.profileBio}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum.
+          <div style={{width:'100%'}}>
+            <h2>Are You Admin?</h2>
+            <NavLink style={{width:'50%',float:'left'}} to="/Signin">YES</NavLink>
+            <NavLink to="/">NO</NavLink>
           </div>
-        </div>
-      )}
+        </p>
+      </div>
+    </div>
+    <Footer/>
     </div>
   );
 };
 
-const styles = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh',
-  },
-  openButton: {
-    padding: '10px 20px',
-    fontSize: '16px',
-    cursor: 'pointer',
-  },
-  modal: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'fixed',
-    zIndex: 1,
-    left: 0,
-    top: 0,
-    width: '100%',
-    height: '100%',
-    overflow: 'auto',
-    backgroundColor: 'rgba(0,0,0,0.4)',
-  },
-  modalContent: {
-    backgroundColor: '#fefefe',
-    padding: '20px',
-    border: '1px solid #888',
-    width: '300px',
-    borderRadius: '10px',
-    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
-    animationName: 'animatetop',
-    animationDuration: '0.4s',
-  },
-  closeButton: {
-    color: '#aaa',
-    float: 'right',
-    fontSize: '28px',
-    fontWeight: 'bold',
-  },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  formGroup: {
-    marginBottom: '15px',
-  },
-  label: {
-    marginBottom: '5px',
-  },
-  input: {
-    width: '100%',
-    padding: '10px',
-    margin: '5px 0 10px 0',
-    display: 'inline-block',
-    border: '1px solid #ccc',
-    boxSizing: 'border-box',
-  },
-  submitButton: {
-    backgroundColor: '#4CAF50',
-    color: 'white',
-    padding: '14px 20px',
-    margin: '8px 0',
-    border: 'none',
-    cursor: 'pointer',
-    width: '100%',
-  },
-};
-
-export default ModalLoginForm;
+export default Profile;
